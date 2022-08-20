@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import auth from '../../../firebase.init';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { signOut } from 'firebase/auth';
 
 const Header = () => {
     const [user] = useAuthState(auth);
+    // console.log(user.displayName)
 
     const handelSignOut = () => {
        
@@ -27,8 +28,13 @@ const Header = () => {
                             { 
                                 user ?
                                     <button className='btn btn-link text-white text-decoration-none ' onClick={handelSignOut}>Log Out</button>
+                                    // &&<button className='btn btn-link text-white text-decoration-none '>{user.displayName}</button>
+
                                     : <Nav.Link className='mx-3' as={Link} to="/login">Log In</Nav.Link>
+                                    
                              }
+                             {/* <Button variant="success" as={Link} to="/login">{user.displayName ? user.userName || user.displayName : "Login"}</Button> */}
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

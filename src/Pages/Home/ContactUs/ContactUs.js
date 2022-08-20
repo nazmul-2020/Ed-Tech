@@ -4,8 +4,8 @@ import "./ContactUs.css"
 
 const ContactUs = () => {
     return (
-        <div className='container my-5'>
-            <h2 className='text-center'>ContactUs</h2>
+        <div className='container my-5' id='contact'>
+            <h2 className='text-center'>Contact Us</h2>
             <Form className='mt-4 w-50 mx-auto'>
                     <Form.Group className="mb-3 " controlId="formBasicEmail">
                         <Form.Control type="name" required placeholder="Enter Your Name" />

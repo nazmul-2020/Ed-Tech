@@ -1,9 +1,13 @@
 import './App.css';
+import Footer from './Pages/Footer/Footer';
+import Header from './Pages/Home/Header/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <Header></Header>
+      <Footer></Footer>
     </div>
   );
 }

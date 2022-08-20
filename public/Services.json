@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Digital-Marketing",
+        "ratings" :3.5,
+        "price": "1300",
+        "img": "https://app.creativeitinstitute.com/wp-content/uploads/2021/12/Digital-marketing-Training-Program_Bangladesh.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": " Web-Design",
+        "ratings" :3.5,
+        "price": "500",
+        "img": "https://app.creativeitinstitute.com/wp-content/uploads/2022/01/Web-Design-Training-Program_Bangladesh.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": " Graphic-Design",
+        "price": "5000",
+        "ratings" :3.5,
+        "img": "https://app.creativeitinstitute.com/wp-content/uploads/2022/01/Graphic-Design-Training-Program_Bangladesh.jpg"
+    },
+    {
+        "id": 4,
+        "name": " MERN-Stack-Development",
+        "price": "5000",
+        "ratings" :3.5,
+        "img": "https://app.creativeitinstitute.com/wp-content/uploads/2021/12/MERN-Stack-Development-Training-Program_Bangladesh.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Web-Development",
+        "price": "5000",
+        "ratings" :3.5,
+        "img": "https://app.creativeitinstitute.com/wp-content/uploads/2021/12/Web-Development-Training-Program_Bangladesh.jpg"
+    },
+    {
+        "id": 6,
+        "name": " Python-With-Django",
+        "price": "5000",
+        "ratings" :3.5,
+        "img": "https://app.creativeitinstitute.com/wp-content/uploads/2022/01/Python-With-Django-Training-Program_Bangladesh.jpg"
+    }
+]
